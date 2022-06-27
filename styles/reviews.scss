@@ -1,4 +1,6 @@
 .reviews {
+
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -6,6 +8,10 @@
   flex-direction: column;
 
   @include onDesktop {
+    position: absolute;
+    top: 700px;
+    left: 0;
+    right: 0;
     margin: 0;
     flex-direction: row;
 
@@ -16,6 +22,7 @@
 
 
   &__testimonial {
+    position: relative;
     display: flex;
     flex-direction: column;
     margin-top: 50px;
@@ -67,5 +74,12 @@
 
   &__photo {
     display: flex;
+  }
+
+  &__decor-img {
+    width: 60px;
+    height: 46px;
+    position: absolute;
+    right: 0;
   }
 }

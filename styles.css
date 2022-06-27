@@ -181,6 +181,10 @@ html {
 }
 @media (min-width: 1440px) {
   .reviews {
+    position: absolute;
+    top: 700px;
+    left: 0;
+    right: 0;
     margin: 0;
     flex-direction: row;
   }
@@ -189,6 +193,7 @@ html {
   }
 }
 .reviews__testimonial {
+  position: relative;
   display: flex;
   flex-direction: column;
   margin-top: 50px;
@@ -234,6 +239,12 @@ html {
 }
 .reviews__photo {
   display: flex;
+}
+.reviews__decor-img {
+  width: 60px;
+  height: 46px;
+  position: absolute;
+  right: 0;
 }
 
 /*# sourceMappingURL=styles.css.map */
