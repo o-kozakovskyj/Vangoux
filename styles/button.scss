@@ -1,0 +1,19 @@
+.button {
+  justify-content: center;
+  align-items: center;
+
+  padding: 0;
+  margin: 0;
+  display: flex;
+  height: 50px;
+  cursor: pointer;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 20px;
+  color: #FFFFFF;
+  background-color: $mainblu;
+  box-shadow: 0px 10px 40px rgba(25, 104, 252, 0.3);
+  border: none;
+  text-shadow: 0px 10px 40px rgba(25, 104, 252, 0.2);
+}

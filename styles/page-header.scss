@@ -1,0 +1,42 @@
+.page-header {
+ 
+
+  &__logo {
+    margin-left: 80px;
+  }
+
+  @include onDesktop {
+    width: 1120px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__nav-list {
+    display: none;
+    padding: 0;
+    margin: 0;
+
+    @include onDesktop {
+      display: flex;
+      list-style: none;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 20px;
+      color: #000;
+      align-items: center;
+    }
+  }
+
+  &__nav-item {
+    width: 120px;
+    text-align: center;
+
+    &:nth-child(4) {
+      width: 180px;
+      margin-right: 10px;
+    }
+  }
+  &__button {
+    width: 180px;
+  }
+}

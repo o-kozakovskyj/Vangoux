@@ -1,0 +1,239 @@
+html {
+  font-family: "muli", sans-serif;
+  font-weight: 600;
+}
+
+.page-header__logo {
+  margin-left: 80px;
+}
+@media (min-width: 1440px) {
+  .page-header {
+    width: 1120px;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.page-header__nav-list {
+  display: none;
+  padding: 0;
+  margin: 0;
+}
+@media (min-width: 1440px) {
+  .page-header__nav-list {
+    display: flex;
+    list-style: none;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000;
+    align-items: center;
+  }
+}
+.page-header__nav-item {
+  width: 120px;
+  text-align: center;
+}
+.page-header__nav-item:nth-child(4) {
+  width: 180px;
+  margin-right: 10px;
+}
+.page-header__button {
+  width: 180px;
+}
+
+.headline {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+@media (min-width: 1440px) {
+  .headline {
+    width: 1120px;
+    display: flex;
+    flex-direction: row;
+  }
+}
+.headline__discription {
+  width: 480px;
+  margin: 80px auto 0;
+}
+@media (min-width: 1440px) {
+  .headline__discription {
+    width: 600px;
+    margin-top: 50px;
+    align-items: center;
+  }
+}
+.headline__title {
+  margin: 0;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+  letter-spacing: 1px;
+  color: #11223F;
+}
+.headline__text {
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 40px;
+}
+.headline__button-mobile {
+  margin-top: 40px;
+  width: 300px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+}
+@media (min-width: 1440px) {
+  .headline__button-mobile {
+    display: none !important;
+  }
+}
+.headline__button-desktop {
+  display: none !important;
+}
+@media (min-width: 1440px) {
+  .headline__button-desktop {
+    width: 300px;
+    display: flex !important;
+    margin-top: 40px !important;
+  }
+}
+.headline__image {
+  margin-top: 80px;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  min-width: 640px;
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson26/hw1/BackgroundDecor.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 40px;
+}
+@media (min-width: 1440px) {
+  .page-container {
+    padding-top: 30px;
+  }
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo__title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #1968fc;
+  margin-left: 10px;
+}
+
+.button {
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  height: 50px;
+  cursor: pointer;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 20px;
+  color: #FFFFFF;
+  background-color: #1968fc;
+  box-shadow: 0px 10px 40px rgba(25, 104, 252, 0.3);
+  border: none;
+  text-shadow: 0px 10px 40px rgba(25, 104, 252, 0.2);
+}
+
+.please-visit {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-color: #1968fc;
+  padding: 30px 60px;
+}
+@media (min-width: 1440px) {
+  .please-visit {
+    display: none;
+  }
+}
+.please-visit__button {
+  height: 120px;
+  width: 520px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 40px;
+}
+
+.reviews {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+@media (min-width: 1440px) {
+  .reviews {
+    margin: 0;
+    flex-direction: row;
+  }
+  .reviews :first-child {
+    margin-right: 40px;
+  }
+}
+.reviews__testimonial {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  width: 540px;
+  padding: 40px;
+  background-color: #fff;
+}
+@media (min-width: 1440px) {
+  .reviews__testimonial {
+    margin-top: 0;
+  }
+}
+.reviews__person-box {
+  display: flex;
+}
+.reviews__text {
+  margin: 0;
+  margin-top: 40px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #11223F;
+}
+.reviews__person-data {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.reviews__person-name {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  color: #11223F;
+}
+.reviews__person-role {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 30px;
+  color: #1967FA;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+.reviews__photo {
+  display: flex;
+}
+
+/*# sourceMappingURL=styles.css.map */

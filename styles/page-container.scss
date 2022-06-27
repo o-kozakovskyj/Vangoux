@@ -1,0 +1,14 @@
+.page-container {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  min-width: 640px;
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson26/hw1/BackgroundDecor.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 40px;
+  @include onDesktop {
+    padding-top: 30px;
+   
+  }
+}

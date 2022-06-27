@@ -1,0 +1,13 @@
+.logo {
+  display: flex;
+  align-items: center;
+
+
+  &__title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: $mainblu;
+    margin-left: 10px;
+  }
+}

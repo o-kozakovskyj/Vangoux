@@ -1,0 +1,71 @@
+.reviews {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-direction: column;
+
+  @include onDesktop {
+    margin: 0;
+    flex-direction: row;
+
+    & :first-child {
+      margin-right: 40px;
+    }
+  }
+
+
+  &__testimonial {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    width: 540px;
+    padding: 40px;
+    background-color: #fff;
+
+    @include onDesktop {
+      margin-top: 0;
+    }
+  }
+
+  &__person-box {
+    display: flex;
+
+  }
+
+  &__text {
+    margin: 0;
+    margin-top: 40px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #11223F;
+  }
+
+  &__person-data {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  &__person-name {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    color: #11223F;
+  }
+
+  &__person-role {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 30px;
+    color: #1967FA;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+  }
+
+  &__photo {
+    display: flex;
+  }
+}

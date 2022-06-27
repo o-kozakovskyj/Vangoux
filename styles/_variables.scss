@@ -1,0 +1,7 @@
+$mainblu: #1968fc;
+$mainTextolor:  #11223F;
+@mixin onDesktop {
+  @media (min-width: $desktopBreakePoint) {
+   @content;
+  }
+}

@@ -1,0 +1,20 @@
+.please-visit {
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  background-color: $mainblu;
+  padding: 30px 60px;
+
+  @include onDesktop {
+    display: none;
+  }
+
+  &__button {
+    height: 120px;
+    width: 520px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 40px;
+  }
+}
